@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:chopperchrome/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:chopperchrome/pipelineUser:token
+  username: arcalos-bot
+prow:
+  hmacToken: vault:chopperchrome/prow:hmacToken
+segmentWriteKey: vault:chopperchrome:segmentWriteKey
